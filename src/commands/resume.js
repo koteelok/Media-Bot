@@ -18,7 +18,7 @@ module.exports = class extends SlashCommand {
 
         if (!queue) return ctx.sendFollowUp({ content: `No music currently playing ${member}... try again ? ❌` });
 
-        const success = queue.setPaused(true);
+        const success = queue.setPaused(false);
 
         return ctx.sendFollowUp({ content: success ? `Current music ${queue.current.title} resumed ✅` : `Something went wrong ${member}... try again ? ❌` });
     }
