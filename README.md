@@ -1,4 +1,4 @@
-# Media-Bot
+# Media Bot
 
 Minimalistic Discord music bot for your Discord server.
 
