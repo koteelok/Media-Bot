@@ -1,4 +1,4 @@
 # Node
 node_modules/
 .env
-package_lock.json
+package-lock.json
