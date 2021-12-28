@@ -1,0 +1,23 @@
+{
+  "name": "media-bot",
+  "version": "1.0.0",
+  "description": "Minimalistic Discord bot for playing music in voice channel.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koteelok/media-bot.git"
+  },
+  "author": "koteelok",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "discord-player": "^5.2.0",
+    "discord.js": "^13.4.0",
+    "dotenv": "^10.0.0",
+    "ffmpeg-static": "^4.4.0",
+    "opusscript": "^0.0.8",
+    "slash-create": "^5.0.1"
+  }
+}
